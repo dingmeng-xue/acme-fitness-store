@@ -70,7 +70,7 @@ az spring gateway route-config create \
 az spring gateway route-config create \
     --name ${CATALOG_SERVICE_APP} \
     --app-name ${CATALOG_SERVICE_APP} \
-    --routes-file .=./azure-spring-apps-enterprise/resources/json/routes/catalog-service.json
+    --routes-file ./azure-spring-apps-enterprise/resources/json/routes/catalog-service.json
 
 ```
 
