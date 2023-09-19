@@ -39,7 +39,7 @@ Make sure you have Bash Shell selected form the shell type dropdown
 4. Install jq utility: [Download jq (jqlang.github.io)](https://jqlang.github.io/jq/download/)
  Please note that you will have to rename jq-win64.exe to jq.exe and add it to PATH.
 5. Install Java 17: [Download Microsoft build of OpenJDK](https://learn.microsoft.com/en-us/java/openjdk/download#openjdk-17)
-6. The environment variable **JAVA_HOME** should be set to the path of the JDK installation. The directory specified by this path should have bin, jre and lib among its subdirectories. Further, ensure your **PATH** variable contains the directory `${JAVA_HOME}/bin`. To test, type which `javac` into bash shell ensure the resulting path points to a file inside `${JAVA_HOME}/bin`.
+6. The environment variable **JAVA_HOME** should be set to the path of the JDK installation. The directory specified by this path should have bin, jre and lib among its subdirectories. Further, ensure your **PATH** variable contains the directory `${JAVA_HOME}/bin`. To test, type which `javac` into bash shell ensure the resulting path points to a file inside `${JAVA_HOME}/bin`.
 7. Install maven: [Maven – Installing Apache Maven](https://maven.apache.org/install.html)
 8. Create a folder by any name for this lab, eg: `ase-lab`
 9. Open Visual Studio Code > File > Open Folder > select the folder you created in step 6
@@ -229,41 +229,45 @@ az monitor diagnostic-settings create --name "send-logs-and-metrics-to-log-analy
     --resource ${SPRING_APPS_RESOURCE_ID} \
     --workspace ${LOG_ANALYTICS_RESOURCE_ID} \
     --logs '[ 
-         { 
-           "category": "ApplicationConsole", 
-           "enabled": true, 
-           "retentionPolicy": { 
-             "enabled": false, 
-             "days": 0 
-           } 
-         }, 
-         { 
-            "category": "SystemLogs", 
-            "enabled": true, 
-            "retentionPolicy": { 
-             "enabled": false, 
-             "days": 0 
-            } 
-          }, 
-         { 
-            "category": "IngressLogs", 
-            "enabled": true, 
-            "retentionPolicy": { 
-              "enabled": false, 
-              "days": 0 
-             } 
-           } 
-       ]' \
-       --metrics '[ 
-         { 
-           "category": "AllMetrics", 
-           "enabled": true, 
-           "retentionPolicy": { 
-             "enabled": false, 
-             "days": 0 
-           } 
-         } 
-       ]' 
+      {
+          "category": "ApplicationConsole",
+          "enabled": true,
+          "retentionPolicy":
+          {
+              "enabled": false,
+              "days": 0
+          }
+      },
+      {
+          "category": "SystemLogs",
+          "enabled": true,
+          "retentionPolicy":
+          {
+              "enabled": false,
+              "days": 0
+          }
+      },
+      {
+          "category": "IngressLogs",
+          "enabled": true,
+          "retentionPolicy":
+          {
+              "enabled": false,
+              "days": 0
+          }
+      }
+    ]' \
+    --metrics '[ 
+      {
+          "category": "AllMetrics",
+          "enabled": true,
+          "retentionPolicy":
+          {
+              "enabled": false,
+              "days": 0
+          }
+      }
+    ]'
 
  export MSYS_NO_PATHCONV=0
 ```
