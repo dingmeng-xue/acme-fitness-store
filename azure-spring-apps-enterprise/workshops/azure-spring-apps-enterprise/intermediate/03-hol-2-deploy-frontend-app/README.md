@@ -3,7 +3,7 @@ In the previous section we deployed a simple hello-world service to asa-e instan
 This diagram below shows the final result once this section is complete:
 ![diagram](images/frontend.png)
 
-Below are the diffrent steps that we configure/create to successfully deploy the services/apps
+Below are the different steps that we configure/create to successfully deploy the services/apps
 - [1. Create and Deploy frontend application in Azure Spring Apps](#1-create-and-deploy-frontend-application-in-azure-spring-apps)
 - [2. Configure Spring Cloud Gateway](#2-configure-spring-cloud-gateway)
   - [2.1. Create  routing rules for the applications:](#21-create--routing-rules-for-the-applications)

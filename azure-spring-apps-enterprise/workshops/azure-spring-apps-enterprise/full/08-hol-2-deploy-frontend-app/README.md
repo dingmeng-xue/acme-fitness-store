@@ -3,7 +3,7 @@ In the previous section we deployed a simple hello-world service to asa-e instan
 This diagram below shows the final result once this section is complete:
 ![diagram](images/frontend.png)
 
-Below are the diffrent steps that we configure/create to successfully deploy the services/apps
+Below are the different steps that we configure/create to successfully deploy the services/apps
 - [1. Configure sampling rate for Application Insights](#1-configure-sampling-rate-for-application-insights)
   - [1.1. Update Sampling Rate](#11-update-sampling-rate)
 - [2. Create and Deploy frontend application in Azure Spring Apps](#2-create-and-deploy-frontend-application-in-azure-spring-apps)
