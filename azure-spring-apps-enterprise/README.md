@@ -1571,7 +1571,7 @@ To navigate to the Threads page, select the Threads option from the Information 
 
 To get started with deploying this sample app from GitHub Actions, please:
 
-1. Complete an Microsoft Entra ID App registration outlined [here](#register-application-with-azure-ad) or have SSO Credentials prepared as described [here](#using-an-existing-sso-identity-provider)
+1. Complete an Microsoft Entra ID App registration outlined [here](#register-application-with-microsoft-entra-id) or have SSO Credentials prepared as described [here](#using-an-existing-sso-identity-provider)
 2. Fork this repository and turn on GitHub Actions in your fork
 
 ### Create a Storage Account
