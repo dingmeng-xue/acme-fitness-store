@@ -620,7 +620,7 @@ echo ${PORTAL_URL}
 The `ISSUER_URI` should take the form `https://login.microsoftonline.com/${TENANT_ID}/v2.0`
 The `JWK_SET_URI` should take the form `https://login.microsoftonline.com/${TENANT_ID}/discovery/v2.0/keys`
 
-#### Add the necessary web redirect URIs to the Microsoft Entra ID Application Registration:
+#### Add the necessary web redirect URIs to App Registration in Microsoft Entra ID:
 
 ```shell
 az ad app update --id ${APPLICATION_ID} \
@@ -632,7 +632,7 @@ Detailed information about redirect URIs can be found [here](https://docs.micros
 ### Using an Existing SSO Identity Provider
 
 > Note: Continue on to [Configure Spring Cloud Gateway with SSO](#configure-spring-cloud-gateway-with-sso) if you 
-> just created an Microsoft Entra ID Application Registration
+> just created an app registration in Microsoft Entra ID
 
 To use an existing SSO Identity Provider, copy the existing template
 
@@ -970,7 +970,7 @@ az spring connection create postgres-flexible \
     --client-type dotnet
 ```
 
-Catalog service uses Microsoft Entra ID authentication to connect to Postgres, so it is not required to include the password
+Catalog service uses Microsoft Entra authentication to connect to Postgres, so it is not required to include the password
 
 #### Bind catalog service to Postgres
 
@@ -1571,7 +1571,7 @@ To navigate to the Threads page, select the Threads option from the Information 
 
 To get started with deploying this sample app from GitHub Actions, please:
 
-1. Complete an Microsoft Entra ID App registration outlined [here](#register-application-with-microsoft-entra-id) or have SSO Credentials prepared as described [here](#using-an-existing-sso-identity-provider)
+1. Complete an App registration in Microsoft Entra ID outlined [here](#register-application-with-microsoft-entra-id) or have SSO Credentials prepared as described [here](#using-an-existing-sso-identity-provider)
 2. Fork this repository and turn on GitHub Actions in your fork
 
 ### Create a Storage Account

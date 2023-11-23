@@ -25,7 +25,7 @@ export APPLICATION_ID=$(cat ad.json | jq -r '.appId')
 az ad app credential reset --id ${APPLICATION_ID} --append > sso.json
 ```
 
-Add the necessary web redirect URIs to the Microsoft Entra ID Application Registration:
+Add the necessary web redirect URIs to App Registration in Microsoft Entra ID :
 
 ```shell
 az ad app update --id ${APPLICATION_ID} \
