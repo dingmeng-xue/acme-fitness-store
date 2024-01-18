@@ -283,4 +283,4 @@ Please make sure to update tests as appropriate.
 
 ## License
 
-See the [LICENSE](./LICENSE) file in the repository
+See the [LICENSE](../../LICENSE) file in the repository
