@@ -2,8 +2,8 @@
 
 Welcome to "Azure for Spring Developers" Workshop. This workshop has few hands on labs described below.
 
-➡️ [00 - Workshop Kickoff](./00-workshop-kickoff/README.md)
-➡️ [01 - Azure Introduction](./01-azure-introduction/README.md)
+- [00 - Workshop Kickoff](./00-workshop-kickoff/README.md)
+- [01 - Azure Introduction](./01-azure-introduction/README.md)
 - [02 - Azure Spring Apps Enterprise Introduction](./02-azure-spring-apps-enterprise-introduction/README.md)
 - [03 - Workshop Environment Setup](./03-setup-workshop-environment/README.md)
 - [04 - Hello World Application](./04-hello-world-application/README.md)
