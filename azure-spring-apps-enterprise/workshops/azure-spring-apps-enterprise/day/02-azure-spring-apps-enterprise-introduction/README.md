@@ -76,7 +76,7 @@ az spring create \
   --verbose
 ```
 
-* This command will take 10+ minutes to complete, as we are configuring lot of components for this Azure Spring Apps Enterprise instance. You can observe the output in the shell, e.g.
+* The above `az spring create` command will take 10+ minutes to complete, as we are configuring lot of components for this Azure Spring Apps Enterprise instance. You can observe the output in the shell, e.g.
 
 ```text
  - Creating Service ..
@@ -148,9 +148,14 @@ Create with generation Gen2
 Command ran in 631.394 seconds (init: 0.167, invoke: 631.227)
 ```
 
-* Please explore in Azure portal the creation of the new Azure Spring Apps Enterprise instance, e.g.
+* Please explore in [Azure portal](https://portal.azure.com) the creation of the new Azure Spring Apps Enterprise instance, e.g.
 
-![ASAE instance in Azure portal](./images/azure-spring-apps-enterprise-instance-01.png)
+![Creating ASAE instance as seen in Azure Portal](./images/azure-spring-apps-enterprise-instance-01.png)
 
+* Once completed, you will see the status changed to `Succeeded`, e.g.
+
+![Completed ASAE instance creation as seen in Azure portal](./images/azure-spring-apps-enterprise-instance-02.png)
+
+* Feel free to explore the [Azure portal](https://portal.azure.com) for the ASA-E instance you have just created.
 
 Next guide - [03 - Workshop Environment Setup](../03-setup-workshop-environment/README.md)
