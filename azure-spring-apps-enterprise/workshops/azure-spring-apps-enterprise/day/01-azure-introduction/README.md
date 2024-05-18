@@ -12,7 +12,7 @@ In this section we will configure your Azure Subscription and Azure CLI.
 
 ![Select Cloud Shell from Azure Portal navigation bar](./images/cloud-shell-01.png)
 
-* If this is a first time you run Azure Cloud Shell, you will need to select `Bash`, e.g.
+* If this is the first time you run Azure Cloud Shell, you will need to select `Bash`, e.g.
 
 ![Select Bash](./images/cloud-shell-02.png)
 
