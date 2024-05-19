@@ -21,4 +21,6 @@ Subscription id can be accessed as below
 
 Check with the workshop moderator, an environment might have already been created for you. Please provide your Microsoft / Azure account so they can associate your account with an existing subscription.
 
+## Next Guide
+
 Next guide [01 - Azure Introduction](../01-azure-introduction/README.md)

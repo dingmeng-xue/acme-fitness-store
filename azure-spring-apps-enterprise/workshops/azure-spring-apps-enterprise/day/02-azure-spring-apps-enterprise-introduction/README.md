@@ -158,4 +158,6 @@ Command ran in 631.394 seconds (init: 0.167, invoke: 631.227)
 
 * Feel free to explore the [Azure portal](https://portal.azure.com) for the ASA-E instance you have just created.
 
+## Next Guide
+
 Next guide - [03 - Workshop Environment Setup](../03-setup-workshop-environment/README.md)

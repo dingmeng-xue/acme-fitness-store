@@ -172,4 +172,6 @@ az group create --name my-resource-group --location westeurope
 
 * Congratulations! You have successfully created a Resource Group using both Azure Portal and Azure CLI.
 
+## Next Guide
+
 Next guide - [02 - Azure Spring Apps Enterprise Introduction](../02-azure-spring-apps-enterprise-introduction/README.md)
