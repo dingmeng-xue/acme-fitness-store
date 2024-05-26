@@ -6,7 +6,7 @@ import java.util.List;
 
 import org.springframework.util.StringUtils;
 
-public class ProductValueObject {
+public class ProductResponse {
 
 	private String id;
 	private String imageUrl1;
@@ -18,10 +18,10 @@ public class ProductValueObject {
 	private Double price;
 	private List<String> tags = new ArrayList<>();
 
-	public ProductValueObject() {
+	public ProductResponse() {
 	}
 
-	public ProductValueObject(Product product) {
+	public ProductResponse(Product product) {
 		id = product.getId();
 		price = product.getPrice();
 		description = product.getDescription();

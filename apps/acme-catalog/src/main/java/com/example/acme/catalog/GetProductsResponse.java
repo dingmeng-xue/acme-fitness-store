@@ -4,17 +4,17 @@ import java.util.List;
 
 public class GetProductsResponse {
 
-    private List<ProductValueObject> data;
+    private List<ProductResponse> data;
 
-    public GetProductsResponse(List<ProductValueObject> data) {
+    public GetProductsResponse(List<ProductResponse> data) {
         this.data = data;
     }
 
-    public List<ProductValueObject> getData() {
+    public List<ProductResponse> getData() {
         return data;
     }
 
-    public void setData(List<ProductValueObject> data) {
+    public void setData(List<ProductResponse> data) {
         this.data = data;
     }
 }

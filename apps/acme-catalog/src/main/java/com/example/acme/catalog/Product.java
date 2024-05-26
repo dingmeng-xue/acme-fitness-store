@@ -28,7 +28,7 @@ public class Product {
     private Double price;
     private String tags;
 
-    public static Product fromProductRequestToProduct(ProductValueObject productVO) {
+    public static Product fromProductRequestToProduct(ProductResponse productVO) {
 
         Product product = new Product();
         product.setPrice(productVO.getPrice());
