@@ -39,4 +39,5 @@ az extension update --name spring
     ```bash
     az spring job start --name index-product-job
     ```
-1. 
+1. Ask FitAssist about `FastRider X1` again and you will get following answer.
+    ![A screenshot of FitAssist's new response](../../../media/fitassist-newprod02.jpg)
