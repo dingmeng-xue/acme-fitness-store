@@ -24,7 +24,7 @@ az extension update --name spring
         --build-env BP_MAVEN_ACTIVE_PROFILES=job \
         --env \
             SPRING_AI_AZURE_OPENAI_ENDPOINT=${SPRING_AI_AZURE_OPENAI_ENDPOINT} \
-            SPRING_AI_AZURE_OPENAI_APIKEY=${SPRING_AI_AZURE_OPENAI_APIKEY}
+            SPRING_AI_AZURE_OPENAI_API_KEY=${SPRING_AI_AZURE_OPENAI_API_KEY}
     ```
 1. Add a new product to catalog service.
     ```bash
