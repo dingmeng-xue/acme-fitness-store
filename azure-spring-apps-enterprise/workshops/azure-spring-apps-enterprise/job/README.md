@@ -14,7 +14,7 @@ az extension update --name spring
 
 1. Create Job resource and bind to service registry
     ```bash
-    az spring job create --name index-product-job --bind-service-registry
+    az spring job create --name index-product-job
     ```
 1. Deploy a job. The implementation of job shares the source code with `acme-assist` project but uses different maven profile called `job` for packaging. 
     ```bash
