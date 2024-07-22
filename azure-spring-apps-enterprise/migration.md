@@ -1,18 +1,32 @@
-az spring app deploy --name frontend --source-path apps/acme-shopping --service dixue-asae-acme -g dixue-aca-acme
-
-
-az spring build-service build create -n frontend --source-path apps/acme-shopping --service dixue-asae-acme --resource-group dixue-aca-acme
-
-az spring build-service build create -n catalog-service --source-path apps/acme-catalog --service dixue-asae-acme --resource-group dixue-aca-acme --build-env BP_JVM_VERSION=17
-az spring build-service build create -n payment-service --source-path apps/acme-payment --service dixue-asae-acme --resource-group dixue-aca-acme --build-env BP_JVM_VERSION=17
-az spring build-service build create -n order-service --source-path apps/acme-order --service dixue-asae-acme --resource-group dixue-aca-acme
-az spring build-service build create -n identity-service --source-path apps/acme-identity --service dixue-asae-acme --resource-group dixue-aca-acme
-az spring build-service build create -n cart-service --source-path apps/acme-cart --service dixue-asae-acme --resource-group dixue-aca-acme
-
+```
+az account set --subscription 6c933f90-8115-4392-90f2-7077c9fa5dbd
 RESOURCE_GROUP="dixue-aca-acme"
 VNET_NAME="dixue-aca-acme-vnet"
 LOCATION="westus2"
 CONTAINERAPPS_ENVIRONMENT="dixue-aca-acme-env"
+```
+
+# create container registry
+```sh
+ACR_NAME="dixueacaacme"
+az acr create -n $ACR_NAME -g $RESOURCE_GROUP --sku Standard --location $LOCATION
+
+```
+
+# Create ASA service
+```sh
+ASA_NAME="dixue-asae-acme"
+# az spring create -n $ASA_NAME -g $RESOURCE_GROUP --sku Enterprise --disable-app-insights
+```
+
+```sh
+az spring build-service build create -n frontend --source-path apps/acme-shopping --service $ASA_NAME -g $RESOURCE_GROUP
+az spring build-service build create -n catalog-service --source-path apps/acme-catalog --service $ASA_NAME -g $RESOURCE_GROUP --build-env BP_JVM_VERSION=17
+az spring build-service build create -n payment-service --source-path apps/acme-payment --service $ASA_NAME -g $RESOURCE_GROUP --build-env BP_JVM_VERSION=17
+az spring build-service build create -n order-service --source-path apps/acme-order --service $ASA_NAME -g $RESOURCE_GROUP
+az spring build-service build create -n identity-service --source-path apps/acme-identity --service $ASA_NAME -g $RESOURCE_GROUP
+az spring build-service build create -n cart-service --source-path apps/acme-cart --service $ASA_NAME -g $RESOURCE_GROUP
+```
 
 # Setup network
 ```shell
