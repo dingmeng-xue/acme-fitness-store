@@ -59,7 +59,7 @@ Azure Spring Apps Enterprise を使用すると、Azure 上で Spring Boot ア�
 
 ## 事前準備
 
-Azure 上に Java アプリケーションをデプロイするため、Azure サブスクリプションが必要です。 Azure のアカウントをお持ちでない場合、[MSDN サブスクライバーの特典](https://azure.microsoft.com/pricing/member-offers/msdn-benefits-details/)を有効にするか、もしくは[無料の Azure アカウント](https://azure.microsoft.com/free/)を作成してください。
+Azure 上に Java アプリケーションをデプロイするため、Azure サブスクリプションが必要です。 Azure のアカウントをお持ちでない場合、[MSDN サブスクライバーの特典](https://azure.microsoft.com/pricing/member-offers/msdn-benefits-details/)を有効にするか、もしくは[無料の Azure アカウント](https://azure.microsoft.com/en-us/pricing/purchase-options/azure-account)を作成してください。
 
 さらに、次のものが必要になります。
 
