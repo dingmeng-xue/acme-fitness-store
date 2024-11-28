@@ -1921,8 +1921,8 @@ cd apps/acme-assist
 このクイック・スタートでは、Azure CLI を使用して多言語アプリケーションを Azure Spring Apps にデプロイしました。 また、エンタープライズ版を利用し VMware Tanzu コンポーネントを設定しました。
 Azure Spring Apps もしくは VMware Tanzu コンポーネントの詳細は下記から入手できます。
 
-* [Azure Spring Apps](https://azure.microsoft.com/en-us/services/spring-cloud/)
-* [Azure Spring Apps docs](https://docs.microsoft.com/en-us/azure/spring-cloud/quickstart-provision-service-instance-enterprise?tabs=azure-portal)
+* [Azure Spring Apps](https://azure.microsoft.com/products/spring-apps/)
+* [Azure Spring Apps docs](https://docs.microsoft.com/azure/spring-cloud/quickstart-provision-service-instance-enterprise)
 * [Deploy Spring Apps from scratch](https://github.com/microsoft/azure-spring-cloud-training)
 * [Deploy existing Spring Apps](https://github.com/Azure-Samples/azure-spring-cloud)
 * [Azure for Java Cloud Developers](https://docs.microsoft.com/en-us/azure/java/)
