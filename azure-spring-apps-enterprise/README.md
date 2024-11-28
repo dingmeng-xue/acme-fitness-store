@@ -64,7 +64,7 @@ an Azure subscription. If you do not already have an Azure
 subscription, you can activate your
 [MSDN subscriber benefits](https://azure.microsoft.com/pricing/member-offers/credit-for-visual-studio-subscribers/)
 or sign up for a
-[free Azure account](https://azure.microsoft.com/en-us/pricing/purchase-options/azure-account).
+[free Azure account](https://azure.microsoft.com/pricing/purchase-options/azure-account).
 
 In addition, you will need the following:
 
