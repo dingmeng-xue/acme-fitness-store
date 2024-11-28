@@ -62,7 +62,7 @@ This application is composed of several services:
 In order to deploy a Java app to cloud, you need
 an Azure subscription. If you do not already have an Azure
 subscription, you can activate your
-[MSDN subscriber benefits](https://azure.microsoft.com/pricing/member-offers/credit-for-visual-studio-subscribers/)
+[MSDN subscriber benefits](https://azure.microsoft.com/en-us/pricing/member-offers/credit-for-visual-studio-subscribers/)
 or sign up for a
 [free Azure account](https://azure.microsoft.com/pricing/purchase-options/azure-account).
 
