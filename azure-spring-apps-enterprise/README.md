@@ -194,7 +194,7 @@ export LOG_ANALYTICS_WORKSPACE=log-analytics-name   # existing workspace or one 
 export REGION=region-name                           # choose a region with Enterprise tier support
 ```
 
-The REGION value should be one of available regions for Azure Spring Apps (e.g. eastus). Please visit [here](https://azure.microsoft.com/en-us/global-infrastructure/services/?products=spring-apps&regions=all) for all available regions for Azure Spring Apps.
+The REGION value should be one of available regions for Azure Spring Apps (e.g. eastus). Please visit [here](https://azure.microsoft.com/explore/global-infrastructure/products-by-region) for all available regions for Azure Spring Apps.
 
 Then, set the environment:
 
@@ -1925,11 +1925,11 @@ In this quickstart, you've deployed polyglot applications to Azure Spring Apps u
 You also configured VMware Tanzu components in the enterprise tier. To learn more about
 Azure Spring Apps or VMware Tanzu components, go to:
 
-* [Azure Spring Apps](https://azure.microsoft.com/en-us/services/spring-cloud/)
-* [Azure Spring Apps docs](https://docs.microsoft.com/en-us/azure/spring-cloud/quickstart-provision-service-instance-enterprise?tabs=azure-portal)
+* [Azure Spring Apps](https://azure.microsoft.com/services/spring-apps/)
+* [Azure Spring Apps docs](https://learn.microsoft.com/azure/spring-apps/enterprise/quickstart-deploy-apps-enterprise)
 * [Deploy Spring Apps from scratch](https://github.com/microsoft/azure-spring-cloud-training)
 * [Deploy existing Spring Apps](https://github.com/Azure-Samples/azure-spring-cloud)
-* [Azure for Java Cloud Developers](https://docs.microsoft.com/en-us/azure/java/)
+* [Azure for Java Cloud Developers](https://docs.microsoft.com/azure/java/)
 * [Spring Cloud Azure](https://spring.io/projects/spring-cloud-azure)
 * [Spring Cloud](https://spring.io/projects/spring-cloud)
 * [Spring Cloud Gateway](https://docs.vmware.com/en/VMware-Spring-Cloud-Gateway-for-Kubernetes/index.html)
