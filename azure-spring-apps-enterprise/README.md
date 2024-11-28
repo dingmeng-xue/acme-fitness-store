@@ -1926,7 +1926,7 @@ You also configured VMware Tanzu components in the enterprise tier. To learn mor
 Azure Spring Apps or VMware Tanzu components, go to:
 
 * [Azure Spring Apps](https://azure.microsoft.com/services/spring-apps/)
-* [Azure Spring Apps docs](https://learn.microsoft.com/azure/spring-apps/enterprise/quickstart-deploy-apps-enterprise)
+* [Azure Spring Apps docs](https://learn.microsoft.com/azure/spring-apps/enterprise/)
 * [Deploy Spring Apps from scratch](https://github.com/microsoft/azure-spring-cloud-training)
 * [Deploy existing Spring Apps](https://github.com/Azure-Samples/azure-spring-cloud)
 * [Azure for Java Cloud Developers](https://learn.microsoft.com/azure/java/)
