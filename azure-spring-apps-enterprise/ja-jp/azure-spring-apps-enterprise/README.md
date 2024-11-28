@@ -1669,7 +1669,7 @@ az ad sp create-for-rbac --name "change-me" \
 
 ### GitHub Actions にシークレットを追加
 
-> GitHub Actions にシークレットを追加する詳細な手順については、[こちら](https://learn.microsoft.com/azure/spring-cloud/how-to-github-actions?pivots=programming-language-java#set-up-github-repository-and-authenticate-1)を参照してください。
+> GitHub Actions にシークレットを追加する詳細な手順については、[こちら](https://learn.microsoft.com/azure/spring-apps/how-to-github-actions?pivots=programming-language-java#set-up-github-repository-and-authenticate-1)を参照してください。
 
 次のシークレット (8x) を GitHub Actions に追加します
 
@@ -1922,7 +1922,7 @@ cd apps/acme-assist
 Azure Spring Apps もしくは VMware Tanzu コンポーネントの詳細は下記から入手できます。
 
 * [Azure Spring Apps](https://azure.microsoft.com/products/spring-apps/)
-* [Azure Spring Apps docs](https://learn.microsoft.com/azure/spring-cloud/quickstart-provision-service-instance-enterprise)
+* [Azure Spring Apps docs](https://learn.microsoft.com/azure/spring-apps/quickstart-provision-service-instance-enterprise)
 * [Deploy Spring Apps from scratch](https://github.com/microsoft/azure-spring-cloud-training)
 * [Deploy existing Spring Apps](https://github.com/Azure-Samples/azure-spring-cloud)
 * [Azure for Java Cloud Developers](https://learn.microsoft.com/en-us/azure/java/)
