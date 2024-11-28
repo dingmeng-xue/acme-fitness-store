@@ -63,7 +63,7 @@ Azure 上に Java アプリケーションをデプロイするため、Azure �
 
 さらに、次のものが必要になります。
 
-| [Azure CLI version 2.50.0 以降](https://docs.microsoft.com/cli/azure/install-azure-cli?view=azure-cli-latest)
+| [Azure CLI version 2.50.0 以降](https://learn.microsoft.com/cli/azure/install-azure-cli?view=azure-cli-latest)
 | [Git](https://git-scm.com/)
 | [`jq` コマンド](https://stedolan.github.io/jq/download/)
 |
@@ -108,7 +108,7 @@ az extension remove --name spring
 az extension add --name spring
 ```
 
-上記のコマンドを実装した後、`spring` のバージョンが `1.14.0` 以上になっているかを確認してください。更新されていない場合は、[Azure CLI の再インストール](https://docs.microsoft.com/ja-jp/cli/azure/install-azure-cli)を試してください。
+上記のコマンドを実装した後、`spring` のバージョンが `1.14.0` 以上になっているかを確認してください。更新されていない場合は、[Azure CLI の再インストール](https://learn.microsoft.com/ja-jp/cli/azure/install-azure-cli)を試してください。
 
 ## レポジトリを Clone
 
@@ -573,7 +573,7 @@ az ad app credential reset --id ${APPLICATION_ID} --append > ../resources/json/s
 az ad sp create --id ${APPLICATION_ID}
 ```
 
-アプリケーションの登録に関する詳細な手順については、[こちら](https://docs.microsoft.com/en-us/azure/active-directory/develop/quickstart-register-app)を参照してください。
+アプリケーションの登録に関する詳細な手順については、[こちら](https://learn.microsoft.com/en-us/azure/active-directory/develop/quickstart-register-app)を参照してください。
 
 ### SSO デプロイのための環境の準備
 
@@ -608,7 +608,7 @@ az ad app update --id ${APPLICATION_ID} \
     --web-redirect-uris "https://${GATEWAY_URL}/login/oauth2/code/sso" "https://${PORTAL_URL}/oauth2-redirect.html" "https://${PORTAL_URL}/login/oauth2/code/sso"
 ```
 
-リダイレクト URI の詳細については、[こちら](https://docs.microsoft.com/en-us/azure/active-directory/develop/quickstart-register-app#add-a-redirect-uri)を参照してください。
+リダイレクト URI の詳細については、[こちら](https://learn.microsoft.com/en-us/azure/active-directory/develop/quickstart-register-app#add-a-redirect-uri)を参照してください。
 
 ### 既存の SSO ID プロバイダーの使用
 
@@ -1669,7 +1669,7 @@ az ad sp create-for-rbac --name "change-me" \
 
 ### GitHub Actions にシークレットを追加
 
-> GitHub Actions にシークレットを追加する詳細な手順については、[こちら](https://docs.microsoft.com/azure/spring-cloud/how-to-github-actions?pivots=programming-language-java#set-up-github-repository-and-authenticate-1)を参照してください。
+> GitHub Actions にシークレットを追加する詳細な手順については、[こちら](https://learn.microsoft.com/azure/spring-cloud/how-to-github-actions?pivots=programming-language-java#set-up-github-repository-and-authenticate-1)を参照してください。
 
 次のシークレット (8x) を GitHub Actions に追加します
 
@@ -1922,10 +1922,10 @@ cd apps/acme-assist
 Azure Spring Apps もしくは VMware Tanzu コンポーネントの詳細は下記から入手できます。
 
 * [Azure Spring Apps](https://azure.microsoft.com/products/spring-apps/)
-* [Azure Spring Apps docs](https://docs.microsoft.com/azure/spring-cloud/quickstart-provision-service-instance-enterprise)
+* [Azure Spring Apps docs](https://learn.microsoft.com/azure/spring-cloud/quickstart-provision-service-instance-enterprise)
 * [Deploy Spring Apps from scratch](https://github.com/microsoft/azure-spring-cloud-training)
 * [Deploy existing Spring Apps](https://github.com/Azure-Samples/azure-spring-cloud)
-* [Azure for Java Cloud Developers](https://docs.microsoft.com/en-us/azure/java/)
+* [Azure for Java Cloud Developers](https://learn.microsoft.com/en-us/azure/java/)
 * [Spring Cloud Azure](https://spring.io/projects/spring-cloud-azure)
 * [Spring Cloud](https://spring.io/projects/spring-cloud)
 * [Spring Cloud Gateway](https://docs.vmware.com/en/VMware-Spring-Cloud-Gateway-for-Kubernetes/index.html)
