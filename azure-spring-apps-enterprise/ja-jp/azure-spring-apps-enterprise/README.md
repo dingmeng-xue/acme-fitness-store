@@ -59,7 +59,7 @@ Azure Spring Apps Enterprise を使用すると、Azure 上で Spring Boot ア�
 
 ## 事前準備
 
-Azure 上に Java アプリケーションをデプロイするため、Azure サブスクリプションが必要です。 Azure のアカウントをお持ちでない場合、[MSDN サブスクライバーの特典](https://azure.microsoft.com/pricing/member-offers/msdn-benefits-details/)を有効にするか、もしくは[無料の Azure アカウント](https://azure.microsoft.com/en-us/pricing/purchase-options/azure-account)を作成してください。
+Azure 上に Java アプリケーションをデプロイするため、Azure サブスクリプションが必要です。 Azure のアカウントをお持ちでない場合、[MSDN サブスクライバーの特典](https://azure.microsoft.com/pricing/member-offers/msdn-benefits-details/)を有効にするか、もしくは[無料の Azure アカウント](https://azure.microsoft.com/pricing/purchase-options/azure-account)を作成してください。
 
 さらに、次のものが必要になります。
 
@@ -175,7 +175,7 @@ export LOG_ANALYTICS_WORKSPACE=log-analytics-name   # existing workspace or one 
 export REGION=region-name                           # choose a region with Enterprise tier support
 ```
 
-REGION の値は、Azure Spring Apps が利用可能なリージョン (eastus など) を設定する必要があります。Azure Spring アプリで利用可能なすべてのリージョンについては、[こちら](https://azure.microsoft.com/en-us/global-infrastructure/services/?products=spring-apps&regions=all)を参照してください。
+REGION の値は、Azure Spring Apps が利用可能なリージョン (eastus など) を設定する必要があります。Azure Spring アプリで利用可能なすべてのリージョンについては、[こちら](https://azure.microsoft.com/explore/global-infrastructure/products-by-region/)を参照してください。
 
 次に、source コマンドで環境を設定します。
 
@@ -1922,7 +1922,7 @@ cd apps/acme-assist
 Azure Spring Apps もしくは VMware Tanzu コンポーネントの詳細は下記から入手できます。
 
 * [Azure Spring Apps](https://azure.microsoft.com/products/spring-apps/)
-* [Azure Spring Apps docs](https://learn.microsoft.com/azure/spring-apps/quickstart-provision-service-instance-enterprise)
+* [Azure Spring Apps docs](https://learn.microsoft.com/azure/spring-apps/enterprise/quickstart-deploy-apps-enterprise)
 * [Deploy Spring Apps from scratch](https://github.com/microsoft/azure-spring-cloud-training)
 * [Deploy existing Spring Apps](https://github.com/Azure-Samples/azure-spring-cloud)
 * [Azure for Java Cloud Developers](https://learn.microsoft.com/en-us/azure/java/)
